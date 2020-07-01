@@ -1,0 +1,129 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+    padding-top: 25px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #EC5094,#ED4B73);
+  
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    transition: padding 1s;
+}
+.link-button:hover{
+    padding: 20px 30px;
+    font-size: 120%;
+}
+h1{
+    color: #EC4B75;
+    font-size: 30px;
+}
+
+p{
+    color: dimgray;
+}
+.pull-down{
+    padding-top: 100px;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    height: 475px;
+    padding-bottom: 150px;
+}
+.mid-banner{
+    background-image:url("images/biography-bg.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.centre{
+    text-align: center;
+}
+.work{
+    float: left;
+    width: 25%;
+    margin-left: 4.5%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 40px gray;
+    transition: all 1s;
+}
+.work:hover{
+    width: 28%;
+    box-shadow: 20px 20px 50px gray;
+}
+.work img{
+    width: 100%;
+    
+}
+.third-banner{
+
+    background-image:url("images/latest-work-bg.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+.second-centre{
+    text-align: center;
+}
+#font{
+    font-size: 17px;
+    color: black;
+    text-align: center;
+}
+#box{
+    background-image: linear-gradient(45deg, #EC5094,#ED4B73);
+    margin: auto;
+    width: 45%;
+    
+    padding: 25px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px gray; 
+  transition: padding 0.5s;
+}
+#box:hover{
+    padding: 35px;
+    box-shadow: 20px 20px 50px gray; 
+}
+#structure-one{
+    color: white;
+    font-size: 12px;
+    
+
+}
+#srtructure-two{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+footer p{
+    text-align: center;
+}
+.footer-banner{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0px;
+}
+footer{
+    padding-top: 200px;
+    padding-bottom: 30px;;
+}
+
+
+
